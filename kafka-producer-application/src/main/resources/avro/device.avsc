@@ -1,0 +1,21 @@
+{
+  "namespace": "com.thomasbonderup.manning",
+  "type": "record",
+  "name": "Device",
+  "fields": [
+    {"name": "charging_source", "type": ["string", "null"], "default": ""},
+    {"name": "processor4_temp", "type": ["int", "null"], "default": 0},
+    {"name": "device_id", "type": ["string", "null"], "default": ""},
+    {"name": "processor2_temp", "type": ["int", "null"], "default": 0},
+    {"name": "processor1_temp", "type": ["int", "null"], "default": 0},
+    {"name": "charging", "type": ["int", "null"], "default": 0},
+    {"name": "current_capacity", "type": ["int", "null"], "default": 0},
+    {"name": "inverter_state", "type": ["int", "null"], "default": 0},
+    {"name": "moduleL_temp", "type": ["int", "null"], "default": 0},
+    {"name": "moduleR_temp", "type": ["int", "null"], "default": 0},
+    {"name": "processor3_temp", "type": ["int", "null"], "default": 0},
+    {"name": "SoC_regulator", "type": ["long", "null"], "default": 0},
+    {"name": "time", "type": ["long", "null"], "default": 0},
+    {"name": "region_id", "type": ["int", "null"], "default": 0}
+  ]
+}

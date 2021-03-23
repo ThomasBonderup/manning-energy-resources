@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+mvn package
+
+java -cp target/energy-kafka-1.0-SNAPSHOT.jar com.thomasbonderup.manning.KafkaConsumerApplication server hello-world.yml

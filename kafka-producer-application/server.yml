@@ -1,0 +1,15 @@
+template: Hello, %s!
+defaultName: Stranger
+
+kafka:
+  bootstrap.servers: "localhost:29092"
+  schema.registry.url: "http://localhost:8090"
+
+topic: "source-topic"
+deviceTables: "devices"
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: secret
+  url: "jdbc:postgresql://0.0.0.0:5432/postgres"
