@@ -2,16 +2,6 @@
 
 Template taken from [https://github.com/jyates/manning-energy-resources](https://github.com/jyates/manning-energy-resources)
 
-Was able to
-- Setup Dropwizard project with jdbi.
-- Create Kafka Producer with REST endpoint for devices to POST events with Avro schema.
-- Create Kafka Consumer to consume event from Kafka with Avro Schema.
-- Create dropwizard command.
-
-Had problems with
-- Setup Kafka Stream application with dropwizard command.
-- Overall system design of Dropwizard application.
-
 Resources for the [Manning liveProject on managing IoT data with Kafka](https://www.manning.com/liveproject/managing-a-distributed-electrical-grid-in-real-time-with-kafka?a_aid=jesse&a_bid=78d8f6d2), where learners are building the infrastructure to support and manage a distributed energy grid.
 
 ## event-generators
